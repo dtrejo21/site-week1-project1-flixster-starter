@@ -1,1 +1,13 @@
+body {
+    background-color: indigo;
+}
 
+h1 {
+    color: white;
+    text-align: center;
+}
+
+p {
+    font-family: vedana; 
+    font-size: 20px
+}
