@@ -1,13 +1,10 @@
-body {
-    background-color: indigo;
+.movies-grid{
+    display: grid;
+    grid-template-columns: repeat(auto, 1fr);
+    grid-gap: 20px;
 }
 
-h1 {
-    color: white;
-    text-align: center;
+.container{
+    display: gird;
 }
 
-p {
-    font-family: vedana; 
-    font-size: 20px
-}

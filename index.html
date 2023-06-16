@@ -4,18 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="stuyles.css">
 </head>
 <body>
     <h1>Flixster</h1>
+    <h2>Now playing</h2>
 
-    <div>Now playing</div>
+    <div class="container">
+        <input id="searchInput" type="text" name="search" placeholder="Search">
+        
+        <div id="movies-grid" class="movies-grid"></div> <!--Display movie posters & titles-->
 
-    <input id="searchInput" type="text" name="search" placeholder="Search">
+        <div class="button-container">
+            <button id="load-more-movies-btn" class="loadMoreMoviesBtn">
+                Load more movies
+            </button>
+        </div>
 
-    <div id="movies-grid" class="movies-grid"></div> <!--Display movie posters & titles-->
-
-    <script src="script.js"></script>
-    
+        <script src="script.js"></script>
+    </div>
     
 </body>
 </html>
