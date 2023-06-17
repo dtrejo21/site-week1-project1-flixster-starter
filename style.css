@@ -1,13 +1,13 @@
 body{
     background-color: #202020;
-    font-size: 14px;
+    font-size: 20px;
+    color: whitesmoke;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 h1{
-    color: whitesmoke;
-}
-
-h2{
-    color: whitesmoke;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 70px;
+    text-align: center;
 }
 
 .movies-grid {
@@ -23,17 +23,35 @@ h2{
     width: calc(25% - 20px);
     padding: 10px;
     text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.movie{
-    display: flex;
+.title{
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.votes{
+    font-size: 14px;
+    line-height:0%;
     justify-content: center;
 }
-
-.container{
+ 
+.loadMoreMoviesBtn{
+    background-color: #343232;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color: whitesmoke;
-    text-align: justify;
+    width: 150px;
+    height: 50px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+     
+.button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 

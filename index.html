@@ -8,20 +8,25 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Flixster</h1>
+    <h1>🍿Flixster🍿</h1>
 
     <form>
-        <h2>Now playing</h2>
+        <h3>Now Playing</h>
     </form>
     
     <input id="searchInput" type="text" name="search" placeholder="Search">
+
+    <button class="exit hidden" id="closeSearchInputBtn">
+        go back to playing now movies
+    </button>
+
 
     <div class="container">
         <div id="movies-grid" class="movies-grid"></div> <!--Display movie posters & titles-->
 
         <div class="button-container">
             <button id="load-more-movies-btn" class="loadMoreMoviesBtn">
-                Load more movies
+                Load More Movies
             </button>
         </div>
 
