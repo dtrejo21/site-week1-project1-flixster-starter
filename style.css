@@ -1,10 +1,39 @@
-.movies-grid{
-    display: grid;
-    grid-template-columns: repeat(auto, 1fr);
-    grid-gap: 20px;
+body{
+    background-color: #202020;
+    font-size: 14px;
+}
+h1{
+    color: whitesmoke;
+}
+
+h2{
+    color: whitesmoke;
+}
+
+.movies-grid {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+}
+
+.movie {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: calc(25% - 20px);
+    padding: 10px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.movie{
+    display: flex;
+    justify-content: center;
 }
 
 .container{
-    display: gird;
+    color: whitesmoke;
+    text-align: justify;
 }
+
 
