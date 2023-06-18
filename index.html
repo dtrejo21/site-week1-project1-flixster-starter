@@ -11,27 +11,28 @@
     <h1>🍿Flixster🍿</h1>
 
     <form>
-        <h3>Now Playing</h>
+        <h2>Now Playing</h2>
     </form>
     
-    <input id="searchInput" type="text" name="search" placeholder="Search">
+    <div class="searchBar">
+        <input id="search-input" type="text" name="search" placeholder="Search">
+    </div>
 
-    <button class="exit hidden" id="closeSearchInputBtn">
-        go back to playing now movies
+    <button id="closeSearchBtn" class="close hidden">
+        Return to Now Playing
     </button>
 
 
-    <div class="container">
-        <div id="movies-grid" class="movies-grid"></div> <!--Display movie posters & titles-->
+    <div id="movies-grid" class="moviesGrid">
+        <!--Display movie posters & titles-->
+    </div> 
 
-        <div class="button-container">
-            <button id="load-more-movies-btn" class="loadMoreMoviesBtn">
-                Load More Movies
-            </button>
-        </div>
-
-        <script src="script.js"></script>
+    <div class="button-container">
+        <button id="load-more-movies-btn" class="loadMoreMoviesBtn">
+            Load More Movies
+        </button>
     </div>
     
+    <script src="script.js"></script>
 </body>
 </html>

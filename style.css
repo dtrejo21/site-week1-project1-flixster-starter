@@ -4,36 +4,38 @@ body{
     color: whitesmoke;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
 h1{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 70px;
     text-align: center;
 }
 
-.movies-grid {
+.moviesGrid{
     display: flex;
     flex-wrap: wrap;
     align-items: baseline;
 }
 
-.movie {
+.movie-card {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: calc(25% - 20px);
+    width: calc(20% - 20px);
     padding: 10px;
     text-align: center;
 }
-
 .title{
-    font-size: 18px;
-    margin: 10px 0;
+    font-size: 2vw;
+    margin-bottom: 0;
+    margin-top: 5px;
 }
 
 .votes{
-    font-size: 14px;
-    line-height:0%;
+    font-size: 1.4vw;
+    font-weight: bold;
     justify-content: center;
+    margin-top: 0;
 }
  
 .loadMoreMoviesBtn{
@@ -47,11 +49,36 @@ h1{
     font-weight: bold;
     border-radius: 10px;
 }
-     
+
+.searchBar{
+    display: flex;
+    justify-content: flex-end;
+    border: 10px;
+    margin-top: -20px;
+}
+
+/*load more movies button*/
 .button-container{
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+/*close search button*/
+.close{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#343232;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 170px;
+    height: 40px;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-top: 2px;
+}
 
+.hidden{
+    display: none;
+}

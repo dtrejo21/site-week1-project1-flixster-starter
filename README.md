@@ -1,10 +1,8 @@
-📝 **NOTE** Use this template to initialize the contents of a README.md file for your application. As you work on your assignment over the course of the week, update the required or stretch features lists to indicate which features you have completed by changing `[ ]` to `[x]`. (🚫 Remove this paragraph before submitting your assignment.)
-
 ## Week 1 Assignment: Flixster
 
-Submitted by: **NAME**
+Submitted by: Daisy Trejo-Hernandez
 
-Estimated time spent: **#** hours spent in total
+Estimated time spent: 18 hours spent in total
 
 Deployed Application (optional): [Flixster Deployed Site](ADD_LINK_HERE)
 
@@ -12,25 +10,25 @@ Deployed Application (optional): [Flixster Deployed Site](ADD_LINK_HERE)
 
 #### Core Features
 
-- [ ] User can view a list of current movies from The Movie Database API as a grid view
+- [x] User can view a list of current movies from The Movie Database API as a grid view
   - The grid element should have an id of `movies-grid`
   - Each movie wrapper element should have a class of `movie-card`
-- [ ] For each movie displayed, user can see the following details:
+- [x] For each movie displayed, user can see the following details:
   - Title - the element should have a class of `movie-title`
   - Image - the `img` element should have a class of `movie-poster`
   - Votes - the element should have a class of `movie-votes`
-- [ ] User can load more current movies by clicking a button at the bottom of the list
+- [x] User can load more current movies by clicking a button at the bottom of the list
   - The button should have an id of `load-more-movies-btn`.
   - When clicked, the page should not refresh.
   - New movies should simply be added to the bottom
-- [ ] Allow users to search for movies and display them in a grid view
+- [x] Allow users to search for movies and display them in a grid view
   - There should be a search input element with an id of `search-input`
   - Users should be able to type into the input
   - When a user hits 'Enter', it should send a search request to the movies API
   - The results from the search should be displayed on the page
   - There should be a close icon with an id of `close-search-btn` that exits the search, clears results, and shows the current movies displayed previously
-- [ ] Website accounts for basic HTML/CSS accessibility features
-- [ ] Website should be responsive
+- [x] Website accounts for basic HTML/CSS accessibility features
+- [x] Website should be responsive
 
 #### Stretch Features
 
@@ -42,28 +40,32 @@ Deployed Application (optional): [Flixster Deployed Site](ADD_LINK_HERE)
 
 ### Walkthrough Video
 
-`TODO://` Add the embedded URL code to your animated app walkthrough below, `ADD_EMBEDDED_CODE_HERE`. Make sure the video or gif actually renders and animates when viewing this README. (🚫 Remove this paragraph after adding walkthrough video)
 
-`ADD_EMBEDDED_CODE_HERE`
+
+
+
+
+
+
 
 ### Reflection
 
 - Did the topics discussed in your labs prepare you to complete the assignment? Be specific, which features in your weekly assignment did you feel unprepared to complete?
 
-Add your response here
+The CSS portion of the project. Even though it is the easiest to see how it changes multiple elements in real time. It is one of the hardest to pick up because of the many elements within it.
 
 - If you had more time, what would you have done differently? Would you have added additional features? Changed the way your project responded to a particular event, etc.
   
-Add your response here
+I would've like to continued designing my page with CSS. I had a trial and error approach with it, the issue with this is that I would later find a better way to execute or change an element. But I would then have to go back into my code to see what line of code I need to erase as it doesn't have any impact on my code currently.
 
 - Reflect on your project demo, what went well? Were there things that maybe didn't go as planned? Did you notice something that your peer did that you would like to try next time?
 
-Add your response here
+Something I didn't take into account when starting this project is not knowing how stressful it can be to juggle three different files. It was something new to me, but this expierence has lead me to learn more how to navigate this situation better and learn. What my peers did is do a lot of trial and error for CSS, in the sense that they kept doing different things until they were able to get the outcome they want. Which in turn helps you learn as you can see what you need to do to do a specific event.
 
 ### Open-source libraries used
 
-- Add any links to open-source libraries used in your project.
+https://developer.themoviedb.org/reference
 
 ### Shout out
 
-Give a shout out to somebody from your cohort that especially helped you during your project. This can be a fellow peer, instructor, TA, mentor, etc.
+Shout out Javier, Adrian, Carlos, Leo (intern peer!) for helpimg me at spots I was stuck at.
