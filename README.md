@@ -39,14 +39,10 @@ Deployed Application (optional): [Flixster Deployed Site](ADD_LINK_HERE)
 - [ ] Implement anything else that you can get done to improve the app functionality!
 
 ### Walkthrough Video
-
-
-
-
-
-
-
-
+<a href="https://www.loom.com/share/d0e1fb4152b1467380e5c86a29970fd5">
+    <p>Flixster - 18 June 2023 - Watch Video</p>
+    <img style="max-width:300px;" src="null">
+</a>
 
 ### Reflection
 
